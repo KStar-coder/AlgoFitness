@@ -14,13 +14,13 @@ const Home = () => {
 
 
   return (
-    <Box>
+    <div className='px-14'>
       <p className='text-3xl text-yellow-300 shadow-lg bg-slate-500 rounded-3xl my-4 mx-2 p-4'>Welcome to Kaustav's Lair</p>
       <HeroBanner1 />
       <HeroBanner />
       <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
       <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />
-    </Box>
+    </div>
   );
 };
 
