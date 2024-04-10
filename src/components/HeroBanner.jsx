@@ -1,6 +1,4 @@
 import React from 'react';
-import { Box, Stack, Typography } from '@mui/material';
-
 import HeroBannerImage from '../assets/images/banner.png';
 
 const HeroBanner = () => (
@@ -25,7 +23,7 @@ const HeroBanner = () => (
         </p>
 
         <p>
-          <a href="#exercises" className='text-center text-2xl font-semibold bg-red-500 rounded-md p-2 text-white hover:bg-red-400' >Explore Exercises</a>
+          <a href="#exercises" className='text-center text-2xl font-semibold bg-red-500 rounded-md p-2 text-white hover:bg-red-500' >Explore Exercises</a>
         </p>
 
       </div>
